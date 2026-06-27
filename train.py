@@ -8,8 +8,8 @@ IMG_SIZE = 64
 BATCH_SIZE = 32
 EPOCHS = 10
 
-train_dir = r"C:\Users\Kanimozhi\Downloads\archive\Dataset\Train"
-val_dir = r"C:\Users\Kanimozhi\Downloads\archive\Dataset\Val"
+train_dir = r"D:\projects\Dataset\Train"
+val_dir = r"D:\projects\Dataset\Val"
 
 # Data Generators (Grayscale + Rescale)
 train_datagen = ImageDataGenerator(rescale=1./255)
